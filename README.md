@@ -1,4 +1,4 @@
-#Bitcoin Scrape Python
+#Bitcoin Scrapper Python
 
 ### O projeto
 
@@ -24,13 +24,13 @@ Uma simples aplicação que compara o marketcap das principais moedas _fiat_ do 
 
 - Crie uma conta no [Docker HUB](https://hub.docker.com/)
 - Instale o [Docker](https://www.docker.com/products/docker-desktop)
-- Rode o comando `docker build . -t bitcoin-scrape`
+- Rode o comando `docker build . -t bitcoin-scrapper`
 
 ### Desistalando container
 
-- Rode o comando `docker rm bitcoin-scrape`
+- Rode o comando `docker rm bitcoin-scrapper`
 
 ### Para rodar o container:
 ``` bash
- $ docker run -it --name=btc-scrape -v $PWD/src:/btc_scrape/src bitcoin-scrape bash
+ $ docker run -it --name=btc-scrapper -v $PWD/src:/btc_scrapper/src bitcoin-scrapper bash
 ```
